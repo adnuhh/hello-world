@@ -17,7 +17,6 @@ def generate_tarot_card():
     else:
         my_card = my_suit + random.sample(suit_values, 1)[0]
     
-    #print("My card is: " + my_card)
     return my_card
 
 def main():
